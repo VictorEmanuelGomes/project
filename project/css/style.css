@@ -108,6 +108,8 @@ body {
 
 .social .container .boxes {
   display: flex;
+  justify-content: center ;
+  align-items: center;
 }
 .painel{
   display: flex;
@@ -122,12 +124,18 @@ body {
   text-align: center;
 }
 
+.social .The_Lost_Canvas{
+  width: 500px;
+}
+
 .The_Lost_Canvas {
   margin: 7%  7% ; 
   width: 40%;
   border-radius: 30px;
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-
+  margin-top: 140px;
+  /* border: solid 3px green; */
+  margin-left: 120px;
 }
 
 .social p {
@@ -156,9 +164,18 @@ body {
    /* align-items: center; */
   justify-content: space-between; 
 }
+#lost{
+  height: 300px;
+}
 .box p {
   text-align: left;
+
 }
+.painel span{
+  font-size: 30px;
+}
+
+
 /* segundo social */
 .social2 {
   background-color: white;
@@ -198,7 +215,7 @@ body {
   border-radius: 30px;
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
   margin-top: 140px;
-  border: solid 3px green;
+  /* border: solid 3px green; */
   margin-left: 250px;
 }
 
@@ -232,6 +249,169 @@ body {
 }
 .box2 p {
   text-align: left;
+  font-size: 20px;
+}
+.painel2 span{
+  font-size: 30px;
+}
+/* terceiro social */
+.social3 {
+  background-color: white;
+  display: flex;
+}
+
+.social3 .container3{
+  justify-content: center;
+}
+
+/* .box img {
+  width: 500px;
+} */
+
+.social3 .container3 .boxes3 {
+  display: flex;
+}
+.painel3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.painel3 img{
+  width: 500px;
+}
+.painel3 span{
+  text-align: center;
+}
+.social3 .Alone{
+  width: 250px;
+}
+
+.Alone {
+  margin: 7%  7% ; 
+  width: 40%;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  margin-top: 140px;
+  /* border: solid 3px green; */
+  margin-left: 250px;
+}
+
+
+.social3 p {
+  text-align: center;
+  margin-top: 140px;
+}
+
+.box3 {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.box3 {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box3 i{
+   display: flex; 
+  margin-right: 225%;
+  margin-top: 2%;
+   /* align-items: center; */
+  justify-content: space-between; 
+}
+.box3 p {
+  text-align: left;
+  font-size: 20px;
+}
+.painel3 span{
+  font-size: 30px;
+  margin-left: 40px;
+}
+
+/* Quarto social */
+.social4 {
+  background-color: white;
+  display: flex;
+}
+
+.social4 .container4{
+  justify-content: center;
+}
+
+/* .box img {
+  width: 500px;
+} */
+
+.social4 .container4 .boxes4 {
+  display: flex;
+}
+.painel4{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.painel4 img{
+  width: 500px;
+}
+.painel4 span{
+  text-align: center;
+}
+.social4 .Sasha{
+  width: 250px;
+}
+
+.Sasha {
+  margin: 7%  7% ; 
+  width: 40%;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  margin-top: 140px;
+  /* border: solid 3px green; */
+  margin-left: 250px;
+}
+
+
+.social4 p {
+  text-align: center;
+  margin-top: 140px;
+}
+
+.box4 {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.box4 {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box4 i{
+   display: flex; 
+  margin-right: 225%;
+  margin-top: 2%;
+   /* align-items: center; */
+  justify-content: space-between; 
+}
+.box4 p {
+  text-align: left;
+  font-size: 20px;
+}
+.painel4 span{
+  font-size: 30px;
+  margin-left: 40px;
 }
 
 
