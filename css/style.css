@@ -67,7 +67,7 @@ body {
 
 .banner .container {
    /* border: solid 3px blue; */
-  height: 500px;
+  height: 600px;
   font-size: 35px;
   justify-content: left;
   align-items: center;
@@ -173,6 +173,7 @@ body {
 }
 .painel span{
   font-size: 30px;
+  font-style: italic;
 }
 
 
@@ -253,6 +254,7 @@ body {
 }
 .painel2 span{
   font-size: 30px;
+  font-style: italic;
 }
 /* terceiro social */
 .social3 {
@@ -332,6 +334,7 @@ body {
 .painel3 span{
   font-size: 30px;
   margin-left: 40px;
+  font-style: italic;
 }
 
 /* Quarto social */
@@ -412,10 +415,11 @@ body {
 .painel4 span{
   font-size: 30px;
   margin-left: 40px;
+  font-style: italic;
 }
 /* Quinto social */
 .social5 {
-  background-color: white;
+  background-color: #d3d3d3;
   display: flex;
 }
 
@@ -427,7 +431,7 @@ body {
   width: 500px;
 } */
 
-.social5 .container4 .boxes4 {
+.social5 .container5 .boxes5{
   display: flex;
 }
 .painel5{
@@ -438,16 +442,12 @@ body {
 }
 .painel5 img{
   width: 500px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .painel5 span{
   text-align: center;
 }
 .social5 .eu{
   width: 250px;
-
 }
 
 .eu {
@@ -457,7 +457,7 @@ body {
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
   margin-top: 140px;
   /* border: solid 3px green; */
-  margin-left: 50px;
+  margin-left: 250px;
 }
 
 
@@ -494,11 +494,10 @@ body {
 }
 .painel5 span{
   font-size: 30px;
-  margin-right: 50px;
-  /* margin-left: 0px; */
-  /* margin-left: 40px; */
-
+  margin-left: 40px;
+  font-style: italic;
 }
+
 
 
 /* FOOTER */
@@ -524,15 +523,16 @@ body {
   ;
 }
 
+
 /* LOGIN */
 
 .banner .container .card {
-  background-color: #e5e5e5;
+  background-color: #e5e5e5 transparent ;
   height: fit-content;
   width: 400px;
   display: flex;
   flex-direction: column;
-  color: palevioletred;
+  color: gold;
   align-items: center;
   border-radius: 4px;
 }
@@ -547,7 +547,7 @@ body {
 }
 
 .card h4 {
-  font-size: 16px;
+  font-size: 25px;
 }
 
 .banner #div_erros_login {
@@ -608,7 +608,7 @@ input {
   font-size: 18px;
   padding: 10px 15px;
   color: white;
-  background-color: #e6005a;
+  background-color: grey;
   width: 120px;
   align-self: center;
   margin-top: 5px;
