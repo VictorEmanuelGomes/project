@@ -167,6 +167,11 @@ body {
 #lost{
   height: 300px;
 }
+#lost n{
+  height: 300px;
+  font-weight: bold;
+  color: #191970;
+}
 .box p {
   text-align: left;
 
@@ -179,7 +184,7 @@ body {
 
 /* segundo social */
 .social2 {
-  background-color: white;
+  background-color:#02735E;
   display: flex;
 }
 
@@ -252,13 +257,18 @@ body {
   text-align: left;
   font-size: 20px;
 }
+.box2 n{
+  font-weight: bold;
+  color: #B22222;
+}
 .painel2 span{
   font-size: 30px;
   font-style: italic;
+  margin-bottom: 20px;
 }
 /* terceiro social */
 .social3 {
-  background-color: white;
+  background-color: #757575	;
   display: flex;
 }
 
@@ -319,6 +329,10 @@ body {
   flex-direction: column;
   align-items: center;
 }
+.box3 n{
+  font-weight: bold;
+  color: gold;
+}
 
 .box3 i{
    display: flex; 
@@ -330,16 +344,18 @@ body {
 .box3 p {
   text-align: left;
   font-size: 20px;
+  color: white;
 }
 .painel3 span{
   font-size: 30px;
   margin-left: 40px;
   font-style: italic;
+  margin-bottom: 20px;
 }
 
 /* Quarto social */
 .social4 {
-  background-color: white;
+  background-color: #E6E6FA;
   display: flex;
 }
 
@@ -412,10 +428,15 @@ body {
   text-align: left;
   font-size: 20px;
 }
+.box4 n{
+  font-weight: bold;
+  color: #8A2BE2;
+}
 .painel4 span{
   font-size: 30px;
   margin-left: 40px;
   font-style: italic;
+  margin-bottom: 20px;
 }
 /* Quinto social */
 .social5 {
